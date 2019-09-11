@@ -1,0 +1,9 @@
+<CompanyType>
+  <Specialization>Testing</Specialization>
+  <PerYear>0.2</PerYear>
+  <Min>1</Min>
+  <Max>10</Max>
+  <Types>
+    <Type Software="Test Software">0.5</Type>
+  </Types>
+</CompanyType>

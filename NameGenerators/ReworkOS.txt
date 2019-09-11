@@ -1,0 +1,34 @@
+-start(pre, base)
+-pre(base)
+The
+-base(base2, ext, stop)
+Frame
+Switch
+Light
+Lightning
+New
+Endless
+Infinite
+Realistic
+Real
+-base2(ext, stop)
+Stop
+Start
+Text
+Bolt
+bolt
+Blind
+Ping
+Beep
+Flare
+Beacon
+-ext(stop)
+OS
+X
+_Z
+XV
+V
+IX
+ OS
+ Reworked
+ Rebuilt

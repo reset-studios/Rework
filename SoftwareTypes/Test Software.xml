@@ -1,0 +1,84 @@
+<SoftwareType>
+  <Name>Test Software</Name>
+  <Category>Testing</Category>
+  <Description>This is just an example software. An example of how to mod this game. Making this perfect will make 75% of people want to buy it, whilst up to 10% may decide to just not.</Description>
+  <Random>0.1</Random>
+  <Categories>
+    <Category Name="Default">
+      <Description>This is an example category. AIs like to make sequels of this, and consumers almost can't let go of it!</Description>
+      <Popularity>0.75</Popularity>
+      <Retention>0.9</Retention>
+      <TimeScale>1</TimeScale>
+      <Iterative>1</Iterative>
+      <NameGenerator>testing</NameGenerator>
+    </Category>
+  </Categories>
+  <OSSpecific>FALSE</OSSpecific>
+  <OSLimit>Computer</OSLimit>
+  <OneClient>FALSE</OneClient>
+  <InHouse>FALSE</InHouse>
+  <Features>
+    <Feature Forced="true">
+      <Name>Text-Based Testing Environment</Name>
+      <Description>Does Pong count?</Description>
+      <DevTime>1</DevTime>
+      <Innovation>0</Innovation>
+      <Usability>1</Usability>
+      <Stability>6</Stability>
+      <CodeArt>1</CodeArt>
+      <Category>System</Category>
+    </Feature>
+    <!-- 2D Testing Environment -->
+    <Feature Vital="true" From="Text-Based Testing Environment">
+      <Name>2D Testing Environment</Name>
+      <Description>Finally, I can see things! This kind of environment is good for platformers and such.</Description>
+      <DevTime>2</DevTime>
+      <Innovation>2</Innovation>
+      <Usability>3</Usability>
+      <Stability>5</Stability>
+      <CodeArt>0.9</CodeArt>
+      <Category>2D</Category>
+      <Unlock>1980</Unlock>
+    </Feature>
+    <!-- oNLINE STUFF -->
+    <Feature>
+      <Name>Multiplayer Testing Server</Name>
+      <Description>Throw all the playtesters at it!</Description>
+      <DevTime>3</DevTime>
+      <Innovation>4</Innovation>
+      <Usability>4</Usability>
+      <Stability>5</Stability>
+      <CodeArt>1</CodeArt>
+      <Server>0.00004</Server>
+      <Category>Network</Category>
+      <Unlock>1990</Unlock>
+      <Dependency Software="Test Software">2D Testing Environment</Dependency>
+    </Feature>
+    <Feature Vital="true">
+      <Name>3D Testing Environment</Name>
+      <Description>Adding another dimension requires a redesign of the system, annoyingly. It's useful though.</Description>
+      <DevTime>6</DevTime>
+      <Innovation>5</Innovation>
+      <Usability>3</Usability>
+      <Stability>4</Stability>
+      <CodeArt>0.8</CodeArt>
+      <Category>3D</Category>
+      <Unlock>1983</Unlock>
+      <Dependency Software="Test Software">2D Testing Environment</Dependency>
+    </Feature>
+    <Feature>
+      <Name>MMO Servers</Name>
+      <Description>Better hope your servers can take this!</Description>
+      <DevTime>4</DevTime>
+      <Innovation>6</Innovation>
+      <Usability>5</Usability>
+      <Stability>3</Stability>
+      <CodeArt>1</CodeArt>
+      <Server>0.0007</Server>
+      <Category>Network</Category>
+      <Unlock>1995</Unlock>
+      <Dependency Software="Test Software">3D Testing Environment</Dependency>
+      <Dependency Software="Test Software">Multiplayer Testing Server</Dependency>
+    </Feature>
+  </Features>
+</SoftwareType>
