@@ -4,7 +4,7 @@
   <Random>0</Random>
 	<Categories>
 		<Category Name="Computer">
-			<Description>For the table</Description>
+			<Description>For the table (This software is modified by Rework, adding new features and things to do!)</Description>
 			<Popularity>0.95</Popularity>
 			<Retention>0.9</Retention>
 			<TimeScale>1</TimeScale>
@@ -51,6 +51,7 @@
 			<Usability>2</Usability>
 			<Stability>1</Stability>
 			<CodeArt>0.75</CodeArt>
+      <Dependency Software="Operating System">Terminal</Dependency>
 		</Feature>
 		<Feature Vital="TRUE">
 			<Name>3D rendering</Name>
@@ -181,7 +182,7 @@
 			<Name>8-bit audio</Name>
 			<Category>Audio</Category>
 			<Unlock>1984</Unlock>
-			<Description></Description>
+			<Description>*mario theme plays oh wait that's copyrighted*</Description>
 			<DevTime>4</DevTime>
 			<Innovation>1</Innovation>
 			<Usability>1</Usability>
@@ -221,6 +222,42 @@
       <SoftwareCategory Category="Computer">1990</SoftwareCategory>
 			<SoftwareCategory Category="Console">1992</SoftwareCategory>
 			<SoftwareCategory Category="Phone">1995</SoftwareCategory>
+    </Feature>
+    <Feature Vital="TRUE">
+      <Name>144p</Name>
+      <Category>2D</Category>
+      <Description>The most basic of grapical displays. As a certain developer once said, More pixels than you can count on one hand!</Description>
+      <DevTime>1</DevTime>
+      <Innovation>0</Innovation>
+      <Usability>1</Usability>
+      <Stability>2</Stability>
+      <Unlock>1976</Unlock>
+      <CodeArt>1</CodeArt>
+      <Dependency Software="Operating System">GUI</Dependency>
+    </Feature>
+    <Feature Vital="TRUE">
+      <Name>240p</Name>
+      <Category>2D</Category>
+      <Description>I mean, we're getting somewhere...</Description>
+      <DevTime>2</DevTime>
+      <Innovation>1</Innovation>
+      <Usability>2</Usability>
+      <Stability>2</Stability>
+      <Unlock>1978</Unlock>
+      <CodeArt>0.9</CodeArt>
+      <Dependency Software="Operating System">144p</Dependency>
+    </Feature>
+    <Feature>
+      <Name>360p</Name>
+      <Category>2D</Category>
+      <Description>Hey look, I can see things!</Description>
+      <DevTime>3</DevTime>
+      <Innovation>2</Innovation>
+      <Usability>3</Usability>
+      <Stability>2</Stability>
+      <Unlock>1980</Unlock>
+      <CodeArt>0.8</CodeArt>
+      <Dependency Software="Operating System">240p</Dependency>
     </Feature>
 	</Features>
 </SoftwareType>
